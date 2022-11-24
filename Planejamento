@@ -3,14 +3,17 @@ Planejamento:
 Entrada
   Receber a opção do menu que o usuário deseja.
 Processamento:
-  1- Se o usuário decidir Jogar o jogo, entrar num loop de turnos até que a batalha termine.
-    Entrada:
-     Receber a opção do combate
-    Processamento:
-     A máquina realizar o seu turno, calcular os status resultantes do turno, e checar se houve alguma derrota.
-     Saída:
-      Mostrar os status do combatente, dano que ocorreu, Mensagem descrevendo a ação do combate e caso ocorra a vitória ou derrota mostrar a mensagem das respectivas.
-  2- Se o usuário decidir Sair:
-  Saída
+1- Se o usuário decidir Jogar o jogo, entrar num loop de turnos até que a batalha termine.
+    Entrada: Receber a opção do combate.
+    Processamento: A máquina realizar o seu turno, calcular os status resultantes do turno, e checar se houve alguma derrota.
+    Saída: Mostrar os status do combatente, dano que ocorreu, Mensagem descrevendo a ação do combate e caso ocorra a vitória ou derrota mostrar a mensagem das respectivas.
+      
+2- Se o usuário decidir sair, o programa termina.
+
+3- Se o usuário escolher o simulador de dados entrará num loop até selecionar a opção de fechar o loop.
+    entrada: Receber número de lados do dado desejado.
+    processamento: Realizar a função de pegar um número dentro do intervalo. (escolhido de forma pseudo-aleatoria)
+    saída: Mostrar o número gerado.
+    entrada: perguntar se deseja outro dado.
       
      
